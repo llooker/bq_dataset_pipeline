@@ -135,6 +135,10 @@ $ pipenv run python scripts/deploy_dag.py \
 ## 7. Confirm everything is working
 
 - Go to your Airflow Composer Env and view the dag to make sure it's running (takes ~15-25 minutes for the data to be generated and uploaded into BQ)
+
+![composer_dag](images/composer_dag.png)
+
 - Query your BQ table and data!
 
-## 8. Connecting in Looker
+![bq_tables](images/bq_tables.png)
+
