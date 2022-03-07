@@ -20,12 +20,21 @@ We're using the [BQ Public Datasets Pipeline](https://github.com/GoogleCloudPlat
 
 # Environment Setup
 
+### Cloudtop
 - SSH into Cloudtop Instance
 - Clone this repo
 
 ```bash
-cd my_cloned_repo
+cd https://github.com/llooker/bq_dataset_pipeline
 ```
+
+- authenticate to Argolis via gcloud
+- 
+```bash
+gcloud auth login
+gcloud auth application-default login
+```
+
 
 We use Pipenv to make environment setup more deterministic and uniform across different machines. If you haven't done so, install Pipenv using these [instructions](https://pipenv-fork.readthedocs.io/en/latest/install.html#installing-pipenv).
 
