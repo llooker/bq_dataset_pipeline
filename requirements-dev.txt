@@ -12,7 +12,7 @@ apache-airflow-providers-apache-beam==3.0.1
 apache-airflow-providers-cncf-kubernetes==2.0.2
 apache-airflow-providers-ftp==2.0.1; python_version ~= '3.6'
 apache-airflow-providers-google==5.1.0
-apache-airflow-providers-imap==2.0.1; python_version ~= '3.6'
+apache-airflow-providers-imap==3.3.0; python_version ~= '3.6'
 apache-airflow-providers-sqlite==2.0.1; python_version ~= '3.6'
 apache-airflow==2.1.1
 apache-beam==2.32.0
